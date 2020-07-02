@@ -1,0 +1,54 @@
+print("hello")
+#is used for comments
+time=19
+print("it is",time,"o clock")
+amazing=10
+print("it is",amazing,"nice")
+time = 10 
+if(time<2):
+    print("yupy")
+else:
+    print("buhu")
+for a in range(10):
+    print("Amazing")
+# you need to define the i always when you are using while and also finsh with +1 if the value is less then what you define 
+i=90
+
+while (i<6):
+    print("I am 3",i)
+    i=i+1
+else:
+    print("test")
+
+def super():
+    print("hello from function world")
+
+super()
+
+def superTest(a,b):
+    d=4
+    c=3
+    g=a+b+c+d
+    return g
+
+x=10
+y=1
+
+result =superTest(x,y)
+print("the result is", result)
+
+
+def game(alex,diana):
+    if(alex>3)or(diana<4):
+        print("zabest")
+    else:
+        print("tryagain")
+
+game(5,7)
+
+def bar(mar,par,cer):
+    if(mar==3)or(par<5)or(cer>8):
+        print("nice")
+    else:
+        print("something")
+bar(3,5,7)
